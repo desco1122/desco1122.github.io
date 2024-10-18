@@ -15,7 +15,7 @@ My artifacts in this portfolio collectively demonstrate my versatility as a comp
 ### Direct Links to Artifacts 
 
 :white_check_mark: [Artifact One](https://github.com/desco1122/desco1122.github.io/tree/main/Artifact%20One%20Software%20design%20and%20engineering)
-:white_check_mark: [Artifact Two]
+:white_check_mark: [Artifact Two](https://github.com/desco1122/desco1122.github.io/tree/main/Artifact%20Two%20Algorithms%20and%20data%20structures)
 :white_check_mark: [Artifact Three]
 
 Together, these artifacts paint a picture of a well-rounded computer science professional capable of tackling diverse challenges across the software development spectrum. They highlight my technical skills, my ability to optimize and scale applications, and my understanding of modern web and database technologies.
