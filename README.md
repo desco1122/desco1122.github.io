@@ -12,7 +12,11 @@ My artifacts in this portfolio collectively demonstrate my versatility as a comp
 - In the algorithms and data structures category, I've optimized the slideshow application by implementing more efficient data structures and algorithms. This enhancement demonstrates my ability to analyze and improve code performance, a critical skill in developing scalable software solutions.
 - Finally, in the databases category, I've integrated MongoDB into the application, showcasing my ability to work with modern NoSQL databases and create full-stack applications. This enhancement demonstrates my understanding of data persistence, database design, and API development.
 
-[Artifact One](https://github.com/desco1122/desco1122.github.io/tree/main/Artifact%20One%20Software%20design%20and%20engineering)
+### Direct Links to Artifacts 
+
+:white_check_mark: [Artifact One](https://github.com/desco1122/desco1122.github.io/tree/main/Artifact%20One%20Software%20design%20and%20engineering)
+:white_check_mark: [Artifact Two]
+:white_check_mark: [Artifact Three]
 
 Together, these artifacts paint a picture of a well-rounded computer science professional capable of tackling diverse challenges across the software development spectrum. They highlight my technical skills, my ability to optimize and scale applications, and my understanding of modern web and database technologies.
 As I prepare to enter the software development field, I am confident that the skills and knowledge I've gained throughout this program, as demonstrated in this ePortfolio, have positioned me well for success. I look forward to applying these skills in real-world scenarios, continuing to learn and grow, and making meaningful contributions to the field of computer science.
