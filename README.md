@@ -14,3 +14,6 @@ My artifacts in this portfolio collectively demonstrate my versatility as a comp
   
 Together, these artifacts paint a picture of a well-rounded computer science professional capable of tackling diverse challenges across the software development spectrum. They highlight my technical skills, my ability to optimize and scale applications, and my understanding of modern web and database technologies.
 As I prepare to enter the software development field, I am confident that the skills and knowledge I've gained throughout this program, as demonstrated in this ePortfolio, have positioned me well for success. I look forward to applying these skills in real-world scenarios, continuing to learn and grow, and making meaningful contributions to the field of computer science.
+
+### Code Review Video :video_camera:
+https://youtu.be/5gGCtt-sZ3U
