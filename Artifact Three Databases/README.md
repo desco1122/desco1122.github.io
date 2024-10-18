@@ -17,7 +17,7 @@ Technical Highlights
 - Error Handling: Enhanced the application with robust error handling for database operations.
 - Performance Optimization: Implemented basic caching and efficient querying techniques to improve application performance.
 
-Skills Demonstrated:
+Skills Demonstrated
 
 - NoSQL database design and implementation
 - Java database integration
