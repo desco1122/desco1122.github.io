@@ -20,5 +20,6 @@ https://youtu.be/5gGCtt-sZ3U
 
 ### Screenshots :camera:
 
+![Screenshot 2024-10-14 182411](https://github.com/user-attachments/assets/773497af-f4e9-44e2-a8d2-9315ad2fe3e7)
 
 
