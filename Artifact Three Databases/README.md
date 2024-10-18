@@ -26,5 +26,6 @@ Skills Demonstrated
 - Data modeling for document-based databases
 - CRUD operation implementation in a database-driven application
 
-Code Snippet Example: 
+Code Snippet Example:
+
 ![art3](https://github.com/user-attachments/assets/c7cda765-ed17-4e59-88c3-66ef71f238d0)
