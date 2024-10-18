@@ -28,3 +28,4 @@ The enhancements significantly improved the SlideShow application's performance 
 
 Code Snipped Example: 
 
+![Screenshot 2024-10-16 203244](https://github.com/user-attachments/assets/d161db40-8d61-43a2-9576-13f2a301c849)
