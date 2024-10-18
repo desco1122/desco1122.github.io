@@ -21,5 +21,5 @@ https://youtu.be/5gGCtt-sZ3U
 ### Screenshots :camera:
 
 ![Screenshot 2024-10-14 182411](https://github.com/user-attachments/assets/773497af-f4e9-44e2-a8d2-9315ad2fe3e7)
-
+![Screenshot 2024-10-14 182157](https://github.com/user-attachments/assets/bfa14be6-ee3b-49cd-bb0b-0df862f8d1eb)
 
