@@ -7,8 +7,8 @@ Enhancements
 To demonstrate proficiency in algorithms and data structures, the following enhancements were implemented:
 
 - Doubly Linked List Implementation: Replaced the original array-based slide storage with a custom doubly linked list, allowing for more efficient insertion, deletion, and navigation of slides.
-- Optimized Navigation Algorithm: Developed a new navigation system that utilizes the doubly linked list structure, providing constant-time O(1) complexity for moving between slides, regardless of the presentation size.
-- Binary Search Algorithm: Implemented a binary search function to quickly locate specific slides by title or index, improving search efficiency from O(n) to O(log n) for large presentations.
+- Optimized Navigation Algorithm: Developed a new navigation system that utilizes the doubly linked list structure, providing constant-time O(1) complexity for moving between slides.
+- Binary Search Algorithm: Implemented a binary search function to quickly locate specific slides by title or index, improving search efficiency from O(n) to O(log n).
 - Custom Sorting Algorithm: Created a flexible sorting mechanism that can arrange slides based on various criteria (e.g., alphabetical order of destinations, date added) using a modified merge sort algorithm.
 
 
