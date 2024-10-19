@@ -22,7 +22,7 @@ As I prepare to enter the software development field, I am confident that the sk
 :white_check_mark: [Artifact Three](https://github.com/desco1122/desco1122.github.io/tree/main/Artifact%20Three%20Databases)
 
 ### Code Review Video :video_camera:
-https://youtu.be/5gGCtt-sZ3U
+[https://youtu.be/5gGCtt-sZ3U](https://youtu.be/vDA7pWCOvg4)
 
 ### Screenshot of Original Source Project :camera:
 
