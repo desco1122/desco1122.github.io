@@ -1,0 +1,132 @@
+<!--
+    index.html
+    
+    Programmer: Daniel Escobedo
+    Contact: danielescobedo1122@gmail.com
+    Date: 10/16/2024
+    Version: 1.0
+    
+    Purpose:
+    This HTML file creates a web-based slideshow of travel destinations.
+    It displays images with accompanying text descriptions and allows navigation between slides.
+    
+    Features:
+    - Responsive design for various screen sizes
+    - Like/Dislike buttons for each destination
+    - Reset functionality for likes/dislikes
+      
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNHU Travel: Top Detox & Wellness Vacation Destinations</title>
+    <!-- Link to external CSS file for styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Main container for the slideshow application -->
+    <div class="container">
+        <!-- Title of the slideshow -->
+        <h1>SNHU Travel Presents: The Top Detox & Wellness Vacation Destinations!</h1>
+
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+            <!-- Container for all slides -->
+            <div class="slides">
+                <!-- Individual slide for Langkawi, Malaysia -->
+                <div class="slide">
+                    <img src="img/TestImage1.jpg" alt="Langkawi, Malaysia">
+                    <div class="text">
+                        <h2>Langkawi, Malaysia: Relax in the great outdoors</h2>
+                        <p>Lovers of the great outdoors can get their travel fix in the Langkawi
+                        archipelago in Malaysia, a destination known for its staggering
+                        limestone cliffs, lush greenery, and jaw-dropping natural geological
+                        formations.</p>
+                    </div>
+                    <!-- Like and dislike buttons for this slide -->
+                    <div class="like-dislike-container">
+                        <button class="like-btn">👍 <span class="like-count">0</span></button>
+                        <button class="dislike-btn">👎 <span class="dislike-count">0</span></button>
+                    </div>
+                </div>
+
+                <!-- Individual slide for Galle, Sri Lanka -->
+                <div class="slide">
+                    <img src="img/TestImage2.jpg" alt="Galle, Sri Lanka">
+                    <div class="text">
+                        <h2>Galle, Sri Lanka: Relax in historic luxury</h2>
+                        <p>The city of Galle on the southwest coast of Sri Lanka is perfect for the
+                        traveler looking for a little luxury and a spot of relaxation.</p>
+                    </div>
+                    <!-- Like and dislike buttons for this slide -->
+                    <div class="like-dislike-container">
+                        <button class="like-btn">👍 <span class="like-count">0</span></button>
+                        <button class="dislike-btn">👎 <span class="dislike-count">0</span></button>
+                    </div>
+                </div>
+
+                <!-- Individual slide for Bagan, Myanmar -->
+                <div class="slide">
+                    <img src="img/TestImage3.jpg" alt="Bagan, Myanmar">
+                    <div class="text">
+                        <h2>Bagan, Myanmar: High flying relaxation</h2>
+                        <p>Travelers seeking remote adventure and laid-back discovery would be
+                        correct in adding Bagan to their list of most relaxing places.</p>
+                    </div>
+                    <!-- Like and dislike buttons for this slide -->
+                    <div class="like-dislike-container">
+                        <button class="like-btn">👍 <span class="like-count">0</span></button>
+                        <button class="dislike-btn">👎 <span class="dislike-count">0</span></button>
+                    </div>
+                </div>
+
+                <!-- Individual slide for Nachi Falls, Japan -->
+                <div class="slide">
+                    <img src="img/TestImage4.jpg" alt="Nachi Falls, Japan">
+                    <div class="text">
+                        <h2>Nachi Falls, Japan: sacred and serene wonders</h2>
+                        <p>The exquisite Nachi Falls in Japan are a magnificent sight to behold.
+                        Hidden away in the Nachi Primeval Forest, the waterfall features an
+                        incredible 133-meter drop.</p>
+                    </div>
+                    <!-- Like and dislike buttons for this slide -->
+                    <div class="like-dislike-container">
+                        <button class="like-btn">👍 <span class="like-count">0</span></button>
+                        <button class="dislike-btn">👎 <span class="dislike-count">0</span></button>
+                    </div>
+                </div>
+
+                <!-- Individual slide for Lake Bled, Slovenia -->
+                <div class="slide">
+                    <img src="img/TestImage5.jpg" alt="Lake Bled, Slovenia">
+                    <div class="text">
+                        <h2>Lake Bled, Slovenia: As peaceful and pretty as it looks</h2>
+                        <p>Built in the 15th century, the church on Bled Island is a much-loved
+                        landmark in Slovenia. This destination is every bit as charming (and
+                        peaceful) as its picture suggests.</p>
+                    </div>
+                    <!-- Like and dislike buttons for this slide -->
+                    <div class="like-dislike-container">
+                        <button class="like-btn">👍 <span class="like-count">0</span></button>
+                        <button class="dislike-btn">👎 <span class="dislike-count">0</span></button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navigation buttons for the slideshow -->
+            <button class="nav-button prev">❮</button>
+            <button class="nav-button next">❯</button>
+        </div>
+
+        <!-- Reset button for likes/dislikes -->
+        <div class="controls">
+            <button class="reset-btn">Reset All Likes/Dislikes</button>
+        </div>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="js/app.js"></script>
+</body>
+</html>
