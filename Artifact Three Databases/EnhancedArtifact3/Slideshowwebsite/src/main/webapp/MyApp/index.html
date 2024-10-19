@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slideshow Manager</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        h1 { text-align: center; }
+        #slideList { margin-bottom: 20px; }
+        .slide { border: 1px solid #ddd; padding: 10px; margin-bottom: 10px; }
+        form { display: flex; flex-direction: column; }
+        input, button { margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Slideshow Manager</h1>
+    <div id="slideList"></div>
+    <h2>Add New Slide</h2>
+    <form id="addSlideForm">
+        <input type="text" id="imagePath" placeholder="Image Path" required>
+        <input type="text" id="description" placeholder="Description" required>
+        <button type="submit">Add Slide</button>
+    </form>
+
+    <script>
+        const API_URL = '/slides';
+
+        async function fetchSlides() {
+            const response = await fetch(API_URL);
+            const slides = await response.json();
+            const slideList = document.getElementById('slideList');
+            slideList.innerHTML = slides.map(slide => `
+                <div class="slide">
+                    <img src="${slide.imagePath}" alt="${slide.description}" style="max-width: 200px;">
+                    <p>${slide.description}</p>
+                    <button onclick="deleteSlide('${slide._id.$oid}')">Delete</button>
+                </div>
+            `).join('');
+        }
+
+        async function addSlide(event) {
+            event.preventDefault();
+            const imagePath = document.getElementById('imagePath').value;
+            const description = document.getElementById('description').value;
+            await fetch(API_URL, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: `imagePath=${encodeURIComponent(imagePath)}&description=${encodeURIComponent(description)}`
+            });
+            fetchSlides();
+            event.target.reset();
+        }
+
+        async function deleteSlide(id) {
+            await fetch(`${API_URL}?id=${id}`, { method: 'DELETE' });
+            fetchSlides();
+        }
+
+        document.getElementById('addSlideForm').addEventListener('submit', addSlide);
+        fetchSlides();
+    </script>
+</body>
+</html>
